@@ -2,7 +2,7 @@ import streamlit as st
 import psycopg2
 
 def db_conn():
-    conn = psycopg2.connect(host="localhost", port = 5432, database="dailyjournal", user="postgres", password="fasjoin21")
+    conn = psycopg2.connect(host="ec2-34-206-8-52.compute-1.amazonaws.com", port = 5432, database="d5p04ogrhh6c46", user="wofnjkidxvqpjr", password="28e61823728be6389d53aba9c7a59fb645d6132669cae26da83cb4273d45d5f3")
     cur=conn.cursor()
        
     return conn,cur
